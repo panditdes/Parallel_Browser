@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User Entered EmailID]]>
+    </line>
+    <line>
+      <![CDATA[User Entered PassWord]]>
+    </line>
+    <line>
+      <![CDATA[User Click on Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered EmailID]]>
+    </line>
+    <line>
+      <![CDATA[User Entered PassWord]]>
+    </line>
+    <line>
+      <![CDATA[User Click on Submit Button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-13T10:24:23 IST" name="Suite" finished-at="2022-07-13T10:27:51 IST" duration-ms="207828">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T10:24:23 IST" name="chorme Test" finished-at="2022-07-13T10:27:48 IST" duration-ms="205172">
+      <class name="testClass.AddNewAddress">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:24:23 IST" name="beforeclass" finished-at="2022-07-13T10:25:15 IST" duration-ms="51470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:25:15 IST" name="beforemethod" finished-at="2022-07-13T10:25:23 IST" duration-ms="8612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyUserCanLogIn()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:25:23 IST" name="VerifyUserCanLogIn" finished-at="2022-07-13T10:27:23 IST" duration-ms="119874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Entered EmailID]]>
+            </line>
+            <line>
+              <![CDATA[User Entered PassWord]]>
+            </line>
+            <line>
+              <![CDATA[User Click on Submit Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogIn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:27:23 IST" name="afterMethod" finished-at="2022-07-13T10:27:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:27:23 IST" name="beforemethod" finished-at="2022-07-13T10:27:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="UserCanAddNewAddress()[pri:1, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:27:23 IST" name="UserCanAddNewAddress" finished-at="2022-07-13T10:27:48 IST" duration-ms="25014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddNewAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:27:48 IST" name="afterMethod" finished-at="2022-07-13T10:27:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClass.AddNewAddress@619713e5]" started-at="2022-07-13T10:27:48 IST" name="afterClass" finished-at="2022-07-13T10:27:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClass.AddNewAddress -->
+    </test> <!-- chorme Test -->
+    <test started-at="2022-07-13T10:24:23 IST" name="firefox Test" finished-at="2022-07-13T10:27:51 IST" duration-ms="207828">
+      <class name="testClass.AddNewAddress">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:24:23 IST" name="beforeclass" finished-at="2022-07-13T10:26:57 IST" duration-ms="154314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:26:57 IST" name="beforemethod" finished-at="2022-07-13T10:26:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyUserCanLogIn()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:26:57 IST" name="VerifyUserCanLogIn" finished-at="2022-07-13T10:27:17 IST" duration-ms="19283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Entered EmailID]]>
+            </line>
+            <line>
+              <![CDATA[User Entered PassWord]]>
+            </line>
+            <line>
+              <![CDATA[User Click on Submit Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogIn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:27:17 IST" name="afterMethod" finished-at="2022-07-13T10:27:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:27:17 IST" name="beforemethod" finished-at="2022-07-13T10:27:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="UserCanAddNewAddress()[pri:1, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:27:17 IST" name="UserCanAddNewAddress" finished-at="2022-07-13T10:27:51 IST" duration-ms="34094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddNewAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:27:51 IST" name="afterMethod" finished-at="2022-07-13T10:27:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClass.AddNewAddress@2e005c4b]" started-at="2022-07-13T10:27:51 IST" name="afterClass" finished-at="2022-07-13T10:27:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClass.AddNewAddress -->
+    </test> <!-- firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
